@@ -15,3 +15,5 @@ for item in div:
     # Titulo
     titulo = item.find("h3", class_="elementor-heading-title elementor-size-default")
     titulo_txt = titulo.get_text(strip=True) if titulo else "N/A"
+    
+    # falta terminar
